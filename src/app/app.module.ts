@@ -6,11 +6,11 @@ import { MaterialModule } from './material-module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ProductListComponent} from './products/product-list/product-list.component';
 import { AppRoutingModule } from './app-routing.module';
 import {HomeContentComponent} from './home/home-content.component';
 import {FooterComponent} from './footer/footer.component';
 import {ContactComponent} from './contact/contact.component';
+import { ProductsComponent } from './products/products.component';
 
 
 @NgModule({
@@ -18,10 +18,10 @@ import {ContactComponent} from './contact/contact.component';
     AppComponent,
     HeaderComponent,
     NavbarComponent,
-    ProductListComponent,
     HomeContentComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
